@@ -35,3 +35,9 @@ export const Flex6: FunctionComponent = () => {
       </Container>
   );
 };
+
+/**
+ * Décommenter toutes les lignes => Est ce que les tailles changent ?
+ * 
+ * Réponse : non, ce sont les valeurs pas défaut de la View
+ */

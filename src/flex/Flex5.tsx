@@ -12,7 +12,6 @@ export const Flex5: FunctionComponent = () => {
             flexGrow: 1,
             flexShrink: 1,
             // flexBasis: 200,
-            // flexBasis: 'auto',
           }}
         />
         <View
@@ -33,3 +32,9 @@ export const Flex5: FunctionComponent = () => {
       </Container>
   );
 };
+
+/**
+ * Décommenter flexBasis => Entre le bleu et le vert, lequel sera le plus gros entre le bleu et le vert ?
+ * 
+ * Réponse : le vert sera le plus gros : flexBasis est appliqué avant flexGrow et flexShrink. Les deux composants vert et bleu grandissent d'autant, mais le bleu est plus petit à l'origine
+ */

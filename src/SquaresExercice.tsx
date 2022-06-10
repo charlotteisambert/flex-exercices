@@ -43,3 +43,6 @@ export const SquareExercice: FunctionComponent = () => {
     </View>
   );
 };
+
+
+// flexGrow et non flex dans le contentContainerStyle!

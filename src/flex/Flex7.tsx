@@ -9,8 +9,8 @@ export const Flex7: FunctionComponent = () => {
           style={{
             backgroundColor: 'blue',
             height: 400,
-            // flex: 1,
-            // flexGrow: 1,
+            // flex: 2,
+            // flexGrow: 2,
             // flexShrink: 1,
             // flexBasis: 'auto',
           }}
@@ -19,8 +19,8 @@ export const Flex7: FunctionComponent = () => {
           style={{
             backgroundColor: 'green',
             height: 400,
-            // flex: 1,
-            // flexGrow: 1,
+            // flex: 2,
+            // flexGrow: 2,
             // flexShrink: 1,
             // flexBasis: 'auto',
           }}
@@ -29,8 +29,8 @@ export const Flex7: FunctionComponent = () => {
           style={{
             backgroundColor: 'red',
             height: 400,
-            // flex: 1,
-            // flexGrow: 1,
+            // flex: 2,
+            // flexGrow: 2,
             // flexShrink: 1,
             // flexBasis: 'auto',
           }}
@@ -38,3 +38,9 @@ export const Flex7: FunctionComponent = () => {
       </Container>
   );
 };
+
+/**
+ * Décommneter les lignes flex: 2, puis les autres lignes. Le comportement est-il différent ?
+ * 
+ * Réponse : Non ! ce sont les valeurs de flex:2. flex: 2 met aussi flexShrink à 1.
+ */

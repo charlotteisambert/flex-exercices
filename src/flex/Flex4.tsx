@@ -28,3 +28,8 @@ export const Flex4: FunctionComponent = () => {
       </Container>
   );
 };
+
+/**
+ * Décommenter flexBasis => le composant bleu grandi
+ * Décommenter minHeight => le composant bleu grandi encore
+ */

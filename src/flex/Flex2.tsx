@@ -31,3 +31,9 @@ export const Flex2: FunctionComponent = () => {
       </Container>
   );
 };
+
+/**
+ * Décommenter les lignes commentées => lequel est le plus petit ?
+ * 
+ * Réponse : Le bleu
+ */

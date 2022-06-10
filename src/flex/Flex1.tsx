@@ -26,3 +26,9 @@ export const Flex1 = () => {
       </Container>
   );
 };
+
+/**
+ * Décommenter les trois flexGrow => lequel est le plus grand entre le vert et le rouge ?
+ * 
+ * Réponse : Le vert. Les deux gagent autant d'espace, mais le vert de base est plus grand 
+ */

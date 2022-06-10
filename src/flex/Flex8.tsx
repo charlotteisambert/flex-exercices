@@ -30,3 +30,9 @@ export const Flex8: FunctionComponent = () => {
       </Container>
   );
 };
+
+/**
+ * Décommenter flexShrink => Est ce que le lbue change de taille ?
+ * 
+ * Réponse : Oui. Pour flex: 0, flexShrink est à 0. Alors que pour toute autre valeur positive de flex, flexShrink est à 1
+ */

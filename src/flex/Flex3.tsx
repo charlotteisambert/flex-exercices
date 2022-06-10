@@ -31,3 +31,9 @@ export const Flex3: FunctionComponent = () => {
       </Container>
   );
 };
+
+/**
+ * Décommenter flexShrink : le bleu disparait. => Si je décommente le minHeight, est ce que le bleu réapparait ?
+ * 
+ * Réponse : Oui. FlexShink ne diminue pas un composant de plus que sa minHeight
+ */
